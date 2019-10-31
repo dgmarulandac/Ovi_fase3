@@ -21,6 +21,8 @@ body {
 h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     margin-left: 10px;
+    position: relative;
+    top: 22px;
     font-size: 60px;
     text-align: center;
 }
@@ -37,6 +39,7 @@ h3{
     font-size: 20px;
     text-align: center;
 }
+
 header {
 width: 1000px;
 height: 180px;
@@ -61,6 +64,8 @@ li{
     float: left;
     list-style-type: none;
     padding: 10px;
+    position: relative;
+    top: 5px;
     background: rgb(201, 170, 34);
     margin: 3px;
     border-radius: 10px;
