@@ -32,6 +32,11 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-family: 'font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 header {
 width: 1000px;
 height: 180px;
@@ -76,7 +81,7 @@ section{
 
     width: 700px;
     background: white;
-    height: 600px;  
+    height: 1000px;  
     float: right;
     margin-top: 20px;
     border-radius: 10px;
@@ -85,7 +90,7 @@ section{
 aside{
     width: 280px;
     background: gray;
-    height: 600px;
+    height: 1000px;
     float: left;
     margin-top: 20px;
     border-radius: 10px;
@@ -109,6 +114,13 @@ aside{
     text-align: justify;
 
 
+   }
+
+   contador{
+    position: relative;
+    top: 800px;
+    
+    
    }
 /*Clases*/
 
