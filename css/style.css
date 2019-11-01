@@ -78,8 +78,8 @@ menu{
     background: rgb(201, 170, 34);
     margin: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(0,88,131) inset;
-    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255) inset;
+    
 }
 
 section{
@@ -121,12 +121,13 @@ aside{
 
    }
 
-   contador{
-    position: relative;
-    top: 800px;
-    
-    
-   }
+   button{
+    background: rgb(0,88,131);
+    box-shadow: 0 0 10px rgb(10, 10, 10) inset;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 10px;
+      }
 /*Clases*/
 
 .ancho_menu_home{width: 900px;}
