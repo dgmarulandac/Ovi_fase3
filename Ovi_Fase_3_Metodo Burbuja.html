@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ES" class="no-js">    
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="Daniel Marulanda Cruz" name="author"/>
+    <meta content="Metodos de ordenacion, con programacion orientada a objetos" name="description"/>
+    <meta content="metodos, ordenacion, programacion" name="keyword"/>
+
+    <title>Metodos Burbuja</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+<DIV id="contenidos">
+        <header>
+                <li><img src="img/logo.jpg" align="left" width="140" height="140" alt="Logo Unad"></li>
+            <h1> Metodos de Ordenación con programación orientada a objetos</h1>
+           
+        </header>
+    
+
+    <nav>
+        <ul class="menu">
+
+                <li><a href="Ovi_Fase_3_Introduccion.html" class="menu">Inicio</a></li>
+                <li><a href="Ovi_Fase_3_Metodo Burbuja.html" class="menu">Metodo Burbuja</a></li>
+                <li><a href="Ovi_Fase_3_Metodo seleccion.html" class="menu">Metodo Seleccion</a></li>
+                <li><a href="Ovi_Fase_3_Metodo Inserccion.html" class="menu">Metodo Inserccion</a></li>
+        </ul>
+    </nav>
+
+    <Section>
+        <article>
+            <h2> Metodo Burbuja</h2>
+           |
+            <p>
+                    El algoritmo se basa en la lectura sucesiva de la lista a ordenar, comparando al elemento inferior de la lista con los
+                     restantes y efectuando el intercambio de posiciones cuando el orden resultante de la comparación no sea el correcto 
+
+            </p>
+
+            <h2>Ejemplo</h2>
+            <p>
+                    Tengo una lista de números 8, 4, 6, 2, la cuál tiene que convertirse al ordenarla en 2, 4, 6, 8, el algoritmo realiza n-1 pasadas, 
+                    en este caso serían 3 <br>
+           </p>
+
+           <h2>Pasada 0</h2>
+
+           <p>
+                El elemento de índice 0, se compara con cada elemento posterior de la lista de índices 1, 2 y 3. En cada comparación se comprueba 
+                si el elemento siguiente es más pequeño que el elemento de índice 0, de ser así los elementos se intercambian. Después de 
+                realizar todas las comparaciones el elemento más pequeño se localiza en el índice 0.
+           </p>
+
+            <figure> 
+                    <center>
+                            <img src="img/Pasada 0.jpg" width="400" alt="Ejemplo pasada 0">
+                    </center>   
+                </figure>
+
+            
+           <h2>Pasada 1</h2>
+
+           <p>
+                El elemento más pequeño se encuentra en el índice 0, entonces vamos a comparar al elemento del índice 1 con los elementos de 
+                los restantes posiciones 2 y3. En cada comparación si el elemento del índice 1 es mayor que los otros intercambian posición,
+                 así al terminar el segundo elemento más pequeño de la lista se va a almacenar en la posición 1
+           </p>
+
+           <figure> 
+                <center>
+                        <img src="img/Pasada 1.jpg" width="400" alt="Ejemplo pasada 1">
+                </center>   
+            </figure>
+        
+            <h2>Pasada 2</h2>
+
+           <p>
+                Han quedado acomodados los dos primeros valores de lo índices 0 y 1, por lo que ahora solo resta valorar a los dos 
+                restantes el índice 2 y 3 resultando lo siguiente:
+           </p>
+
+           <figure> 
+                <center>
+                        <img src="img/Pasada 2.jpg" width="400" alt="Ejemplo pasada 2">
+                </center>   
+            </figure>
+
+            <p>
+                    Para realizar el intercambio de posiciones debemos utilizar ciclos anidados, sugerimos utilizar el ciclo for e ir 
+                    comparando mediante un if si el valor inicial del arreglo es mayor que el valor de cada índice a evaluar.
+               </p>
+               
+               <h2>Video Explicativo Pasada 2</h2>
+               <figure> 
+                    <center>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/uiiss0hP8xM" frameborder="0"
+                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </center>   
+                </figure>
+
+        </article>
+
+        </Section>
+
+        <aside>
+                <ul>
+                        <menu><a href="http://www.google.com">Google</a></menu>
+                        <menu><a href="http://www.unad.edu.co">Universidad Unad</a></menu>
+                        <menu><a href="http://www.enter.co">Revista Enter</a></menu>
+                        <menu><a href="http://www.enter.co">Revista Enter</a></menu>
+                </ul>
+          <contador>      
+                <h3>Visitas en la pagina</h3>
+                <!-- hitwebcounter Code START -->
+                <a href="http://www.hitwebcounter.com" target="_blank">
+                <img src="http://hitwebcounter.com/counter/counter.php?page=7155984&style=0038&nbdigits=5&type=page&initCount=0" title="IP Address" Alt="IP Address"   border="0" >
+                 </a>                                       
+                   <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="" 
+                    target="_blank" style="font-family: ; 
+                    font-size: px; color: #; text-decoration: "> 
+                     </a>   
+
+                    </contador>
+
+        </aside>
+        <center>
+        <footer><h2>Copyrigth Todos los Derechos Reservados</h2></footer>
+          </center>
+
+        
+
+</DIV>
+
+    
+ 
+
+</body>
+
+<script src="js/modernizr.js"></script>
+<script src="js/prefixfree.js"></script>
+<script src="js/jquery-3.4.1.slim.js"></script>
+
+</html>
